@@ -57,7 +57,7 @@ export interface IData {
 /**
  * A object used to describe a manga
  */
-export interface IComic extends ITagged, IData, IExtra {
+export interface IComic extends ITagged, IData {
   /**
    * The id of the manga
    */
