@@ -8,6 +8,5 @@ describe('#getManga', () => {
     expect(manga).toHaveProperty('id', '7704-konan');
     expect(manga).toHaveProperty('title', 'konan');
     expect(manga).toHaveProperty('pageCount', 36);
-    expect(manga).toStrictEqual({});
   }, 20000000);
 });
