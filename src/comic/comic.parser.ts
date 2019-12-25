@@ -49,7 +49,6 @@ export const getTags = ($: CheerioStatic): ITagged => {
 
       info[name.substring(0, name.length - 1)] = values;
     });
-  console.error(info);
 
   return {
     parodies: info.parody || [],
