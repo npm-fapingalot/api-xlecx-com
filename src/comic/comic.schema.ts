@@ -1,16 +1,4 @@
-/**
- * The object used to describe a tag
- */
-export interface ITag {
-  /**
-   * The name
-   */
-  name: string;
-  /**
-   * The href of the link
-   */
-  href: string;
-}
+import { ITag } from '../tag';
 
 /**
  * A object used to describe a page
@@ -41,7 +29,7 @@ export interface ITagged {
 }
 
 /**
- * A object used to describe a manga data
+ * A object used to describe a comic data
  */
 export interface IData {
   /**
@@ -55,16 +43,16 @@ export interface IData {
 }
 
 /**
- * A object used to describe a manga
+ * A object used to describe a comic
  */
 export interface IComic extends ITagged, IData {
   /**
-   * The id of the manga
+   * The id of the comic
    */
   id: string;
 
   /**
-   * The title of the manga
+   * The title of the comic
    */
   title: string;
 }
