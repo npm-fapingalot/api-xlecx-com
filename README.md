@@ -10,7 +10,7 @@ This library supports fetching:
 ``` npm install --save api-xlecx-com ```
 # API
 
-## Manga
+## Comic
 ### getComic(comic_id)
 
 ## Lists
