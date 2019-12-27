@@ -3,8 +3,9 @@ import fetch from 'node-fetch';
 
 import * as SELECTOR from './comic.selectors';
 import * as URL from './comic.url';
-import { IComic, IPage, ITagged, ITag } from './comic.schema';
+import { IComic, IPage, ITagged } from './comic.schema';
 import { sanitizeText, toInt, regexExtract, getParentText, emptyStringToNull, isEmpty, isEmptyString } from '../utils.parse';
+import { ITag } from '../tag';
 
 // SELECTOR
 export const getTitle = ($: CheerioStatic): string | null =>
