@@ -1,6 +1,6 @@
 import { getComic } from './comic.parser';
 
-describe('#getManga', () => {
+describe('#getComic', () => {
   test('Compatibility', async () => {
     const manga = await getComic('7704-konan');
 

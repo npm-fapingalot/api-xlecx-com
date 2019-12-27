@@ -1,6 +1,6 @@
 import { getTags } from './tag.parser';
 
-describe('#getHomeManga', () => {
+describe('#getTags', () => {
   test('Compatibility', async () => {
     const tags = await getTags();
 

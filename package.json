@@ -4,6 +4,10 @@
   "description": "Api Xlecx Com (TypeScript)",
   "author": "Hentai Sex <fapingalot@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm-fapingalot/api-xlecx-com.git"
+  },
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "files": [
